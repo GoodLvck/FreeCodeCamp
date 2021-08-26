@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <header class="header">
+            <h1 id="title">Skateboarding Survey Form</h1>
+            <p id="description">General survey to evaluate Skateboarding evolution</p>
+        </header>
+
+        <form lass="card mt-5" id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label"  >Name *</label>
+                <input class="form-control" type="text" name="name" id="name" required placeholder="Write your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label"  >Email *</label>
+                <input class="form-control" type="email" name="email" id="email" required placeholder="Write your email">
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label"  >Age</label>
+                <input class="form-control" type="number" name="number" id="number" min="1" max="100" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <p>Which continent are you from?</p>
+                <select id="dropdown" name="continent" class="form-control" required>
+                    <option disabled selected value>Select your continent</option>
+                    <option value="north-america">North-america</option>
+                    <option value="south-america">South-america</option>
+                    <option value="europe">Europe</option>
+                    <option value="africa">Africa</option>
+                    <option value="asia">Asia</option>
+                    <option value="australia">Australia</option>
+                    <option value="antartica">Antartica</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Do you like skateboarding?</p>
+                <label  >
+                    <input   name="like-sk8" value="definitely" type="radio" class="input-radio" checked>Definitely
+                </label  >
+
+                <label  >
+                    <input   name="like-sk8" value="maybe" type="radio" class="input-radio">Maybe
+                </label>
+
+                <label  >
+                    <input   name="like-sk8" value="not-sure" type="radio" class="input-radio">Not sure
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>What is your favorite modality?</p>
+                <label   for="street">
+                    <input   type="checkbox" name="street" value="street"> Street Skateboarding
+                </label>
+                <label   for="park">
+                    <input   type="checkbox" name="park" value="park"> Park Skateboarding
+                </label>
+                <label   for="vert">
+                    <input   type="checkbox" name="vert" value="vert"> Vert Skateboarding
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>What do you think about Skateboarding Olympic debut</p>
+                <textarea class="form-control" name="opinion" class="input-textarea" id="opinion" placeholder="Enter your opinion here..."></textarea>
+            </div>
+
+            <div class="d-grid gap-2">
+                <button type="submit" id="submit" class="btn btn-primary mx-auto">Submit</button>
+            </div>
+        </form>
+
+    </main>
+
+</body>
+
+</html>

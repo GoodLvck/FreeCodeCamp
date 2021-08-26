@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css');
+
+body {
+    background: #40E0D0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1,
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.form-group{
+    margin: 40px 20px ;
+}
+
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    color: white;
+    text-align: center;
+}
+
+.description {
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+button{
+    display: block;
+    text-align: center;
+    width: 95%;
+}
+
+label{
+    display: block;
+}
