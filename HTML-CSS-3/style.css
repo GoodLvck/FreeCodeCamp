@@ -252,7 +252,7 @@ header .nav-bar a:hover {
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('img/banner-logo.png') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/Rolics/rolics.github.io/main/img/banner-logo.png') no-repeat center center fixed;
     background-size: cover;
     height: 855px;
 }

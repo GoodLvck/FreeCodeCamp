@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 html {
-    font-size: 10px;
+    font-Medida: 10px;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
+    font-Medida: 1.6rem;
     line-height: 1.5;
     text-align: center;
     color: #232323;
@@ -14,19 +14,19 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-Medida: 4rem;
     margin-bottom: 0;
 }
 
 @media (max-width: 460px) {
     h1 {
-        font-size: 3.5rem;
+        font-Medida: 3.5rem;
         line-height: 1.2;
     }
 }
 
 h2 {
-    font-size: 3.25rem;
+    font-Medida: 3.25rem;
 }
 
 a {
@@ -78,7 +78,7 @@ img {
 
 @media (max-width: 460px) {
     #img-caption {
-        font-size: 1.4rem;
+        font-Medida: 1.4rem;
     }
 }
 
